@@ -1,0 +1,75 @@
+name: community_sos
+description: Community SOS
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  bouncing_widget: ^1.2.0
+
+  line_icons: ^1.3.2
+
+  # Service Locator
+  get_it: ^5.0.6
+
+  # To store small user data
+  shared_preferences: ^0.5.12+4
+
+  # To handle permission
+  permission_handler: ^5.1.0+2
+
+  # Localization
+  flutter_translate: ^1.6.0
+
+  # To scan the qr_code
+  qr_code_scanner: ^0.3.4
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+  random_string: ^2.1.0
+
+  qr_flutter: ^3.2.0
+  flutter_easyloading: ^2.2.2
+  telephony: ^0.0.7
+  fluttertoast: ^7.1.6
+  flutter_ringtone_player: ^2.0.0
+  flutter_background: ^0.1.5
+  rflutter_alert: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/undraw_black_lives_matter.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/undraw_black_lives_matter.png
+     - assets/images/qr_code.png
+     - assets/i18n/
+     - assets/alert_sms.mp3
+
+  fonts:
+    - family: MyanmarSansPro
+      fonts:
+        - asset: assets/fonts/MyanmarSansPro.ttf
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Medium.ttf
+
